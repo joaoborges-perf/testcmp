@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Axeptio CMP Test</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <h1>CMP Performance Test</h1>
+  <p>Test page for Lighthouse lab measurements.</p>
+</body>
+<footer>
+  <script>
+    window.axeptioSettings = {
+      clientId: "653660ee6552f114ad81d141",
+      cookiesVersion: "test-en-EU",
+      googleConsentMode: {
+        default: {
+          analytics_storage: "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          wait_for_update: 500
+        }
+      }
+    };
+    (function(d, s) {
+      var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+      e.async = true; e.src = "//static.axept.io/sdk.js";
+      t.parentNode.insertBefore(e, t);
+    })(document, "script");
+    </script>
+</footer>
+</html>
